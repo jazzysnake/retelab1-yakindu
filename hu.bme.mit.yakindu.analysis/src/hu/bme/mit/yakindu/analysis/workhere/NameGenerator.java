@@ -22,7 +22,6 @@ public class NameGenerator {
 	public String generateName(State stateToName) {
 		String name = "DefaultStateName"+uid;
 		uid++;
-		names.put(name, stateToName);
 		return name;
 	}
 	

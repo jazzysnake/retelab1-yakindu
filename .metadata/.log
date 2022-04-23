@@ -69,3 +69,9 @@ Binding(CTRL+D,
 		,,true),null),
 	org.eclipse.ui.defaultAcceleratorConfiguration,
 	org.eclipse.xtext.ui.embeddedTextEditorScope,,,system)
+
+!ENTRY org.yakindu.sct.builder.SCTBuilder 2 0 2022-04-23 23:39:44.333
+!MESSAGE Cannot execute Genmodel /hu.bme.mit.yakindu.analysis/model_input/example.sgen. The file contains errors.
+
+!ENTRY org.yakindu.sct.builder.SCTBuilder 2 0 2022-04-23 23:39:56.578
+!MESSAGE Cannot execute Genmodel /hu.bme.mit.yakindu.analysis/model_input/example.sgen. The file contains errors.
