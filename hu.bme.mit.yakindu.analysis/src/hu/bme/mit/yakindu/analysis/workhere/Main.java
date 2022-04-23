@@ -39,7 +39,11 @@ public class Main {
 					nameGen.saveAllocatedName(state);
 				}else {
 					String genName = nameGen.generateName(state);
+					while(nameGen.nameIsAllocated(genName)) {
+						genName=nameGen.generateName(state);
+					}
 					state.setName(genName);
+					nameGen.saveAllocatedName(state);
 					System.out.println("State with empty name found! suggested name: "+genName);
 				}
 				
